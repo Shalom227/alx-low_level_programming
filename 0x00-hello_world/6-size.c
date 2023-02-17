@@ -5,7 +5,9 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
+
 {	
 	printf("Size of int: %ld bytes\n", sizeof(int));
 	printf("Size of unsigned char: %ld bytes\n", sizeof(unsigned char));
