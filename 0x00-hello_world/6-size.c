@@ -8,6 +8,16 @@
 
 int main(void)
 {
+	int inttype;
+	unsigned char unsignedchar;
+	float floattype;
+	char chartype;
+	short shorttype;
+	unsigned short unsignedshort;
+	unsigned int unsignedint;
+	unsigned long unsignedlong;
+	long longtype;
+
 	printf("Size of int:%ld bytes\n", sizeof(int));
 	printf("Size of unsigned char:%ld bytes\n", sizeof(unsigned char));
 	printf("Size of float:%ld bytes\n", sizeof(float));
