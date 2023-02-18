@@ -7,13 +7,9 @@
  */
 int main(void)
 {
-
 	int num;
 
-	for (num = 10; num <= 9; num++)
-	{
-		putchar(num);
-	}
-	putchar('\n');
+	printf("%d", num);
+	printf("\n");
 	return (0);
 }
