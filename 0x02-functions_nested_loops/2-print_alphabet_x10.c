@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints alphabets in lower case 10x using _putchar
- * Return: Nothing
- *
+ * print_alphabet_x10 - prints alphabets in lower case 10x using _putchar
+ * Return: void
 */
 
 void print_alphabet_x10(void)
