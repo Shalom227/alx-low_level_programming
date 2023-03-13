@@ -1,15 +1,14 @@
 #include "main.h"
+void _puts(char *str);
+#include<stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - Entry point
+ * _puts - prints a  string
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char *str;
-
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
+	puts("\" Programming is like building a multilingual puzzle");
 	return (0);
 }
