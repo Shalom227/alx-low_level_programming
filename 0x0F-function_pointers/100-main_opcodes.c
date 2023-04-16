@@ -29,6 +29,7 @@ int main(int argc, char *argv[])
 	}
 
 	arr = (char *)main;
+	for (s = 0; s < bytes; s++)
 	{
 		if (s == bytes - 1)
 		{
